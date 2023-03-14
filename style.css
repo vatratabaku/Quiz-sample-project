@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(39, 39, 70);
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    width: 150px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(83, 89, 151, 0.696);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.box{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 4px ;
+}
+.title{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.options{
+    margin-top: 20px;
+    width: 240px;
+}
+
+.row{
+    display: flex;
+    padding: 3px;
+    margin-top: 10px;
+}
+.row input{
+   margin-left: 5px;
+}
+.row p{
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+/*
+ const generate = (question, a, b, c, d) => {
+       let html = `        
+    <div class="options">
+    <div class="row">
+        <label for="">a</label>
+        <input type="radio" value="a" id="a" />
+        <p id="a_space">${e.question}</p>
+    </div>
+    <div class="row">
+        <label for="">b</label>
+        <input type="radio" value="b" id="b"/>
+        <p id="b_space"></p>
+    </div>
+    <div class="row">
+        <label for="">c</label>
+        <input type="radio" value="c" id="c"/>
+        <p id="c_space"></p>
+    </div>
+    <div class="row">
+        <label for="">d</label>
+        <input type="radio" value="d" id="d"/>
+        <p id="d_space"></p>
+    </div>
+  </div>`
+ };
+
+  return generate(questions.question, questions.a, questions.b, questions.c, questions.d);
+*/
